@@ -16,6 +16,10 @@
 		D3CC20732579403D0039A7C1 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC20722579403D0039A7C1 /* GFButton.swift */; };
 		D3CC20762579449B0039A7C1 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC20752579449B0039A7C1 /* GFTextField.swift */; };
 		D3CC207925796D7B0039A7C1 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC207825796D7B0039A7C1 /* FollowerListVC.swift */; };
+		D3E4AE77257A82F000D5FFE0 /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE76257A82F000D5FFE0 /* GFTitleLabel.swift */; };
+		D3E4AE7A257A845300D5FFE0 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */; };
+		D3E4AE7D257A850900D5FFE0 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */; };
+		D3E4AE80257A8A8000D5FFE0 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D3CC20722579403D0039A7C1 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		D3CC20752579449B0039A7C1 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		D3CC207825796D7B0039A7C1 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
+		D3E4AE76257A82F000D5FFE0 /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
+		D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
+		D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +78,12 @@
 				D31C9AFF25791B220091A931 /* SearchVC.swift */,
 				D31C9B0225791B580091A931 /* FavoritesListVC.swift */,
 				D3CC207825796D7B0039A7C1 /* FollowerListVC.swift */,
+				D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */,
 				D3CC20722579403D0039A7C1 /* GFButton.swift */,
 				D3CC20752579449B0039A7C1 /* GFTextField.swift */,
+				D3E4AE76257A82F000D5FFE0 /* GFTitleLabel.swift */,
+				D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */,
+				D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -147,8 +159,12 @@
 			files = (
 				D3CC20762579449B0039A7C1 /* GFTextField.swift in Sources */,
 				D31C9B0325791B580091A931 /* FavoritesListVC.swift in Sources */,
+				D3E4AE80257A8A8000D5FFE0 /* UIViewController+Ex.swift in Sources */,
 				D3CC20732579403D0039A7C1 /* GFButton.swift in Sources */,
 				D31C9B0025791B220091A931 /* SearchVC.swift in Sources */,
+				D3E4AE7D257A850900D5FFE0 /* GFAlertVC.swift in Sources */,
+				D3E4AE7A257A845300D5FFE0 /* GFBodyLabel.swift in Sources */,
+				D3E4AE77257A82F000D5FFE0 /* GFTitleLabel.swift in Sources */,
 				D3CC207925796D7B0039A7C1 /* FollowerListVC.swift in Sources */,
 				D31C9AE72579137D0091A931 /* AppDelegate.swift in Sources */,
 				D31C9AE92579137D0091A931 /* SceneDelegate.swift in Sources */,
@@ -291,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7A2MH6YNP;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7A2MH6YNP;
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
