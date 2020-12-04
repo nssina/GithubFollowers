@@ -20,6 +20,8 @@
 		D3E4AE7A257A845300D5FFE0 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */; };
 		D3E4AE7D257A850900D5FFE0 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */; };
 		D3E4AE80257A8A8000D5FFE0 /* UIViewController+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */; };
+		D3E4AE8B257A9B9400D5FFE0 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE8A257A9B9400D5FFE0 /* Follower.swift */; };
+		D3E4AE8E257A9C5200D5FFE0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E4AE8D257A9C5200D5FFE0 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ex.swift"; sourceTree = "<group>"; };
+		D3E4AE8A257A9B9400D5FFE0 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		D3E4AE8D257A9C5200D5FFE0 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		D31C9AE52579137D0091A931 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				D3E4AE89257A9B8800D5FFE0 /* Model */,
 				D3E4AE86257A914300D5FFE0 /* Support */,
 				D3E4AE84257A90EA00D5FFE0 /* Extensions */,
 				D3E4AE83257A90B700D5FFE0 /* Custom Views */,
@@ -118,6 +123,15 @@
 				D31C9AF1257913800091A931 /* LaunchScreen.storyboard */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		D3E4AE89257A9B8800D5FFE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3E4AE8A257A9B9400D5FFE0 /* Follower.swift */,
+				D3E4AE8D257A9C5200D5FFE0 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +210,9 @@
 				D31C9B0025791B220091A931 /* SearchVC.swift in Sources */,
 				D3E4AE7D257A850900D5FFE0 /* GFAlertVC.swift in Sources */,
 				D3E4AE7A257A845300D5FFE0 /* GFBodyLabel.swift in Sources */,
+				D3E4AE8B257A9B9400D5FFE0 /* Follower.swift in Sources */,
 				D3E4AE77257A82F000D5FFE0 /* GFTitleLabel.swift in Sources */,
+				D3E4AE8E257A9C5200D5FFE0 /* User.swift in Sources */,
 				D3CC207925796D7B0039A7C1 /* FollowerListVC.swift in Sources */,
 				D31C9AE72579137D0091A931 /* AppDelegate.swift in Sources */,
 				D31C9AE92579137D0091A931 /* SceneDelegate.swift in Sources */,
