@@ -126,6 +126,6 @@ extension FollowerListVC: UISearchResultsUpdating, UISearchBarDelegate {
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        
+        updateData(on: followers)
     }
 }
