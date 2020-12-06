@@ -114,6 +114,16 @@
 			path = GHFollowers;
 			sourceTree = "<group>";
 		};
+		D39406A7257D582D00CB8BCE /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				D394069B257D473000CB8BCE /* GFItemInfoVC.swift */,
+				D39406A1257D539200CB8BCE /* GFRepoItemVC.swift */,
+				D39406A4257D55C600CB8BCE /* GFFollowerItemVC.swift */,
+			);
+			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
 		D3E31290257BF66700C7FFA4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,11 +160,9 @@
 		D3E31294257BF68100C7FFA4 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				D39406A7257D582D00CB8BCE /* ItemInfoVCs */,
 				D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */,
 				D394068F257D11E100CB8BCE /* GFUserInfoHeaderVC.swift */,
-				D394069B257D473000CB8BCE /* GFItemInfoVC.swift */,
-				D39406A1257D539200CB8BCE /* GFRepoItemVC.swift */,
-				D39406A4257D55C600CB8BCE /* GFFollowerItemVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
