@@ -21,7 +21,7 @@ class UserInfoVC: UIViewController {
     var itemViews: [UIView] = []
     
     var username: String!
-
+    weak var delegate: FollowerListVCDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class UserInfoVC: UIViewController {
     
     func configureViewController() {
         view.backgroundColor = .systemBackground
-        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dimissVC))
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(dismissVC))
         navigationItem.rightBarButtonItem = doneButton
     }
     
@@ -106,7 +106,7 @@ class UserInfoVC: UIViewController {
         childVC.didMove(toParent: self)
     }
     
-    @objc func dimissVC() {
+    @objc func dismissVC() {
         dismiss(animated: true)
     }
 
@@ -124,6 +124,12 @@ extension UserInfoVC: UserInfoVCDelegate {
     }
     
     func didTapGetFollowers(for user: User) {
-        //
+        guard user.following != 0 else {
+            presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 😞.", buttonTitle: "So sad")
+            return
+        }
+        
+        delegate.didRequestFollowers(for: user.login)
+        dismissVC()
     }
 }
