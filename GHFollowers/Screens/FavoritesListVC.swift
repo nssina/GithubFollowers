@@ -19,6 +19,12 @@ class FavoritesListVC: UIViewController {
     }
     
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        getFavorites()
+    }
+    
+    
     func configureViewController() {
         view.backgroundColor = .systemBackground
         title = "Favorites"
@@ -43,9 +49,18 @@ class FavoritesListVC: UIViewController {
             
             switch result {
             case .success(let favorite):
-                self.favorites = favorite
+                
+                if favorite.isEmpty {
+                    self.showEmptyStateView(with: "No Favorites?\nAdd one on the follower screen.", in: self.view)
+                } else {
+                    self.favorites = favorite
+                    DispatchQueue.main.async {
+                        self.tableView.reloadData()
+                        self.view.bringSubviewToFront(self.tableView)
+                    }
+                }
             case .failure(let error):
-                break
+                self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "OK")
             }
         }
     }

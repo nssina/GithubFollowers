@@ -126,15 +126,18 @@ class FollowerListVC: UIViewController {
                     
                     guard let error = error else {
                         self.presentGFAlertOnMainThread(title: "Success!", message: "You have successfully favorited this user 🎉.", buttonTitle: "Hooray!")
+                        self.dismissLoadingView()
                         return
                     }
                     
                     self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "OK")
+                    self.dismissLoadingView()
                     
                 }
                 
             case .failure(let error):
                 self.presentGFAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "OK")
+                self.dismissLoadingView()
             }
         }
     }
