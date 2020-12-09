@@ -31,6 +31,7 @@
 		D3E0AA8725812E6900DCD10B /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA8625812E6900DCD10B /* GFAlertContainerView.swift */; };
 		D3E0AA8C258137FA00DCD10B /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA8B258137FA00DCD10B /* GFDataLoadingVC.swift */; };
 		D3E0AA8F258149CD00DCD10B /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA8E258149CD00DCD10B /* UIView+Ext.swift */; };
+		D3E0AA92258153A800DCD10B /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA91258153A800DCD10B /* UITableView+Ext.swift */; };
 		D3E3128E257BDCDC00C7FFA4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E3128D257BDCDC00C7FFA4 /* UIHelper.swift */; };
 		D3E31299257BF6BE00C7FFA4 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E31298257BF6BE00C7FFA4 /* GFEmptyStateView.swift */; };
 		D3E3129C257C01E600C7FFA4 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E3129B257C01E600C7FFA4 /* UserInfoVC.swift */; };
@@ -72,6 +73,7 @@
 		D3E0AA8625812E6900DCD10B /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		D3E0AA8B258137FA00DCD10B /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		D3E0AA8E258149CD00DCD10B /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIView+Ext.swift"; path = "../../../../../UIView+Ext.swift"; sourceTree = "<group>"; };
+		D3E0AA91258153A800DCD10B /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UITableView+Ext.swift"; path = "../../../../../UITableView+Ext.swift"; sourceTree = "<group>"; };
 		D3E3128D257BDCDC00C7FFA4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		D3E31298257BF6BE00C7FFA4 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		D3E3129B257C01E600C7FFA4 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				D3E4AE7F257A8A8000D5FFE0 /* UIViewController+Ex.swift */,
 				D35F4416257FB82B004A0247 /* Date+Ext.swift */,
 				D3E0AA8E258149CD00DCD10B /* UIView+Ext.swift */,
+				D3E0AA91258153A800DCD10B /* UITableView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				D3CC207925796D7B0039A7C1 /* FollowerListVC.swift in Sources */,
 				D31C9AE72579137D0091A931 /* AppDelegate.swift in Sources */,
 				D31C9AE92579137D0091A931 /* SceneDelegate.swift in Sources */,
+				D3E0AA92258153A800DCD10B /* UITableView+Ext.swift in Sources */,
 				D39406A2257D539200CB8BCE /* GFRepoItemVC.swift in Sources */,
 				D3E3129C257C01E600C7FFA4 /* UserInfoVC.swift in Sources */,
 			);
