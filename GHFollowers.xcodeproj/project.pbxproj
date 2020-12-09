@@ -29,6 +29,7 @@
 		D3CC207925796D7B0039A7C1 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC207825796D7B0039A7C1 /* FollowerListVC.swift */; };
 		D3E0AA84258125EB00DCD10B /* GFTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA83258125EB00DCD10B /* GFTabbarController.swift */; };
 		D3E0AA8725812E6900DCD10B /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA8625812E6900DCD10B /* GFAlertContainerView.swift */; };
+		D3E0AA8C258137FA00DCD10B /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E0AA8B258137FA00DCD10B /* GFDataLoadingVC.swift */; };
 		D3E3128E257BDCDC00C7FFA4 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E3128D257BDCDC00C7FFA4 /* UIHelper.swift */; };
 		D3E31299257BF6BE00C7FFA4 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E31298257BF6BE00C7FFA4 /* GFEmptyStateView.swift */; };
 		D3E3129C257C01E600C7FFA4 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3E3129B257C01E600C7FFA4 /* UserInfoVC.swift */; };
@@ -68,6 +69,7 @@
 		D3CC207825796D7B0039A7C1 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		D3E0AA83258125EB00DCD10B /* GFTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabbarController.swift; sourceTree = "<group>"; };
 		D3E0AA8625812E6900DCD10B /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		D3E0AA8B258137FA00DCD10B /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 		D3E3128D257BDCDC00C7FFA4 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		D3E31298257BF6BE00C7FFA4 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		D3E3129B257C01E600C7FFA4 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				D39406A7257D582D00CB8BCE /* ItemInfoVCs */,
 				D3E4AE7C257A850900D5FFE0 /* GFAlertVC.swift */,
 				D394068F257D11E100CB8BCE /* GFUserInfoHeaderVC.swift */,
+				D3E0AA8B258137FA00DCD10B /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				D3E4AE8B257A9B9400D5FFE0 /* Follower.swift in Sources */,
 				D3940690257D11E100CB8BCE /* GFUserInfoHeaderVC.swift in Sources */,
 				D394068C257D0F7800CB8BCE /* GFError.swift in Sources */,
+				D3E0AA8C258137FA00DCD10B /* GFDataLoadingVC.swift in Sources */,
 				D3E4AE77257A82F000D5FFE0 /* GFTitleLabel.swift in Sources */,
 				D3E0AA8725812E6900DCD10B /* GFAlertContainerView.swift in Sources */,
 				D3E4AE8E257A9C5200D5FFE0 /* User.swift in Sources */,
