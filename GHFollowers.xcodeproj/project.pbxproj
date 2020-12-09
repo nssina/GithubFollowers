@@ -191,8 +191,8 @@
 		D3E31295257BF69500C7FFA4 /* Labels */ = {
 			isa = PBXGroup;
 			children = (
-				D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */,
 				D3E4AE76257A82F000D5FFE0 /* GFTitleLabel.swift */,
+				D3E4AE79257A845300D5FFE0 /* GFBodyLabel.swift */,
 				D3940692257D125300CB8BCE /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
