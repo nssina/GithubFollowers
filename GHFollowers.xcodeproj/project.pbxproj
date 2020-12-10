@@ -121,10 +121,10 @@
 				D3E4AE95257AAB3600D5FFE0 /* Utilities */,
 				D3E4AE91257AA30600D5FFE0 /* Managers */,
 				D3E4AE89257A9B8800D5FFE0 /* Model */,
-				D3E4AE86257A914300D5FFE0 /* Support */,
 				D3E4AE84257A90EA00D5FFE0 /* Extensions */,
 				D3E4AE83257A90B700D5FFE0 /* Custom Views */,
 				D3E4AE82257A908500D5FFE0 /* Screens */,
+				D3E4AE86257A914300D5FFE0 /* Support */,
 				D31C9AF4257913800091A931 /* Info.plist */,
 			);
 			path = GHFollowers;
@@ -537,6 +537,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinarabiei.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -556,6 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sinarabiei.GHFollowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

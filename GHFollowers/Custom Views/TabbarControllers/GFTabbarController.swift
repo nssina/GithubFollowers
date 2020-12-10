@@ -15,6 +15,7 @@ class GFTabbarController: UITabBarController {
         viewControllers = [createSearchNC(), createFavoritesNC()]
     }
     
+    
     func createSearchNC() -> UINavigationController {
         let searchVC = SearchVC()
         searchVC.title = "Search"
@@ -22,6 +23,7 @@ class GFTabbarController: UITabBarController {
         
         return UINavigationController(rootViewController: searchVC)
     }
+    
     
     func createFavoritesNC() -> UINavigationController {
         let favoritesListVC = FavoritesListVC()

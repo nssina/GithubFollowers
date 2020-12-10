@@ -15,6 +15,7 @@ class GFFollowerItemVC: GFItemInfoVC {
     
     weak var delegate: GFFollowerItemVCDelegate!
     
+    
     init(user: User, delegate: GFFollowerItemVCDelegate) {
         super.init(user: user)
         self.delegate = delegate
@@ -37,6 +38,7 @@ class GFFollowerItemVC: GFItemInfoVC {
         itemInfoViewTwo.set(itemInfoType: .following, with: user.following)
         actionButton.set(background: .systemGreen, title: "Get Followers")
     }
+    
     
     override func actionButtonTapped() {
         delegate.didTapGetFollowers(for: user)
